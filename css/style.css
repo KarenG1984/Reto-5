@@ -306,13 +306,19 @@ label {
   justify-content: space-between;
   margin-top: 10px;
 }
+.login__content--remember-me label {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
 .login__content--remember-me a {
   color: var(--warm-grey);
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
+  margin-left: -145px;
 }
 .login__content--remember-me a:hover {
   text-decoration: underline;
@@ -397,7 +403,7 @@ footer {
   width: 100%;
 }
 footer .footer__content {
-  text-align: center;
+  /* text-align: center; */
   padding: 8px;
   background-color: var(--black);
 }
@@ -435,6 +441,7 @@ footer .footer__content {
 .content__up--form label {
   color: var(--white);
   font-weight: normal;
+  float: left;
 }
 .content__up--form input {
   width: 100%;
@@ -445,7 +452,7 @@ footer .footer__content {
   margin-top: 5px;
 }
 .btn-send {
-  float: center;
+  float: left;
   padding: 6px 10px;
   border: none;
   background: var(--green);
@@ -455,7 +462,7 @@ footer .footer__content {
   transition: all 0.3s;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 .btn-send:hover {
   background: var(--white);
